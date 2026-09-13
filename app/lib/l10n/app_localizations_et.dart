@@ -10001,4 +10001,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Unusta teine seade';
+
+  @override
+  String get processingTakingLonger => 'Ikka käimas — see võtab kauem aega kui tavaliselt.';
 }

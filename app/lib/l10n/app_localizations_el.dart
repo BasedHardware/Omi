@@ -10078,4 +10078,7 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Διαγραφή δεύτερης συσκευής';
+
+  @override
+  String get processingTakingLonger => 'Ακόμα σε εξέλιξη — χρειάζεται περισσότερο χρόνο από το συνηθισμένο.';
 }

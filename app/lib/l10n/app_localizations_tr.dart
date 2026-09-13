@@ -10020,4 +10020,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'İkinci cihazı unut';
+
+  @override
+  String get processingTakingLonger => 'Hâlâ devam ediyor — bu her zamankinden daha uzun sürüyor.';
 }

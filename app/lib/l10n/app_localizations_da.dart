@@ -9992,4 +9992,7 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Glem anden enhed';
+
+  @override
+  String get processingTakingLonger => 'Arbejder stadig — det tager længere end normalt.';
 }

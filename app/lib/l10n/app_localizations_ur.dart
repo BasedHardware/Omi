@@ -10020,4 +10020,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'دوسرا ڈیوائس بھول جائیں';
+
+  @override
+  String get processingTakingLonger => 'ابھی کام جاری ہے — اس میں معمول سے زیادہ وقت لگ رہا ہے۔';
 }

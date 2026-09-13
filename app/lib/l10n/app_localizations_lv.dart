@@ -10031,4 +10031,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Aizmirst otro ierīci';
+
+  @override
+  String get processingTakingLonger => 'Joprojām notiek — tas aizņem ilgāk nekā parasti.';
 }

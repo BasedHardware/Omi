@@ -10055,4 +10055,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Uită al doilea dispozitiv';
+
+  @override
+  String get processingTakingLonger => 'Încă se procesează — durează mai mult decât de obicei.';
 }

@@ -10028,4 +10028,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Забути другий пристрій';
+
+  @override
+  String get processingTakingLonger => 'Ще обробляється — це триває довше, ніж зазвичай.';
 }

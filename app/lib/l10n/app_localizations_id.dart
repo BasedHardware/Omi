@@ -10018,4 +10018,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Lupakan perangkat kedua';
+
+  @override
+  String get processingTakingLonger => 'Masih diproses — ini memakan waktu lebih lama dari biasanya.';
 }

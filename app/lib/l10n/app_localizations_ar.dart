@@ -9947,4 +9947,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'نسيان الجهاز الثاني';
+
+  @override
+  String get processingTakingLonger => 'ما زال قيد العمل — يستغرق وقتًا أطول من المعتاد.';
 }

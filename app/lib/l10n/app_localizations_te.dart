@@ -10057,4 +10057,7 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'రెండవ పరికరాన్ని మర్చిపోండి';
+
+  @override
+  String get processingTakingLonger => 'ఇంకా పని జరుగుతోంది — ఇది సాధారణం కంటే ఎక్కువ సమయం తీసుకుంటోంది.';
 }
