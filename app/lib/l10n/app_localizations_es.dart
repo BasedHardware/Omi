@@ -10024,7 +10024,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get secondDevice => 'Segundo dispositivo';
 
   @override
-  String get pairSecondDevice => 'Vincular un segundo dispositivo';
+  String get pairSecondDevice => 'Emparejar un segundo dispositivo';
 
   @override
   String get pairSecondDeviceDescription =>
