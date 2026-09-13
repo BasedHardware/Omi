@@ -10015,4 +10015,17 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get speechProfileEnrollmentPrompt => 'Щоб Omi знав, який голос ваш, говоріть про будь-що приблизно 5 секунд.';
+
+  @override
+  String get secondDevice => 'Другий пристрій';
+
+  @override
+  String get pairSecondDevice => 'Підключити другий пристрій';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Підключіть OmiGlass разом з Omi, щоб фото та звук потрапляли в одну розмову.';
+
+  @override
+  String get forgetSecondDevice => 'Забути другий пристрій';
 }

@@ -10065,4 +10065,17 @@ class AppLocalizationsTa extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Omi உங்கள் குரலை அடையாளம் காண — எதைப் பற்றியாவது சுமார் 5 வினாடிகள் பேசுங்கள்.';
+
+  @override
+  String get secondDevice => 'இரண்டாவது சாதனம்';
+
+  @override
+  String get pairSecondDevice => 'இரண்டாவது சாதனத்தை இணைக்கவும்';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'புகைப்படங்களும் ஒலியும் ஒரே உரையாடலுக்குச் செல்ல, உங்கள் Omi உடன் OmiGlass ஐ இணைக்கவும்.';
+
+  @override
+  String get forgetSecondDevice => 'இரண்டாவது சாதனத்தை மறக்கவும்';
 }

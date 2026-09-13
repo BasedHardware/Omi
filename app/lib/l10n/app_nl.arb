@@ -3262,5 +3262,9 @@
     },
     "tapPlusToStartRecording": "Tik op + om de opname te starten",
     "processingTakingLonger": "Nog bezig — dit duurt langer dan normaal.",
-    "speechProfileEnrollmentPrompt": "Zodat Omi weet welke stem van jou is — praat ongeveer 5 seconden over wat je maar wilt."
+    "speechProfileEnrollmentPrompt": "Zodat Omi weet welke stem van jou is — praat ongeveer 5 seconden over wat je maar wilt.",
+    "secondDevice": "Tweede apparaat",
+    "pairSecondDevice": "Tweede apparaat koppelen",
+    "pairSecondDeviceDescription": "Verbind OmiGlass naast je Omi zodat foto's en audio in hetzelfde gesprek terechtkomen.",
+    "forgetSecondDevice": "Tweede apparaat vergeten"
 }

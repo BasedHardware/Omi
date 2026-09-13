@@ -10005,4 +10005,17 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Agar Omi tahu suara mana yang milikmu — bicarakan apa saja selama sekitar 5 detik.';
+
+  @override
+  String get secondDevice => 'Perangkat kedua';
+
+  @override
+  String get pairSecondDevice => 'Pasangkan perangkat kedua';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Sambungkan OmiGlass bersama Omi Anda agar foto dan audio masuk ke percakapan yang sama.';
+
+  @override
+  String get forgetSecondDevice => 'Lupakan perangkat kedua';
 }

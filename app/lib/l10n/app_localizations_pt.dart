@@ -10004,4 +10004,17 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Para que o Omi saiba qual é a sua voz — fale sobre qualquer coisa por cerca de 5 segundos.';
+
+  @override
+  String get secondDevice => 'Segundo dispositivo';
+
+  @override
+  String get pairSecondDevice => 'Emparelhar um segundo dispositivo';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Conecte o OmiGlass junto ao seu Omi para que fotos e áudio entrem na mesma conversa.';
+
+  @override
+  String get forgetSecondDevice => 'Esquecer segundo dispositivo';
 }

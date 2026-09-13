@@ -3262,5 +3262,9 @@
     },
     "tapPlusToStartRecording": "Pieskarieties +, lai sāktu ierakstīšanu",
     "processingTakingLonger": "Joprojām notiek — tas aizņem ilgāk nekā parasti.",
-    "speechProfileEnrollmentPrompt": "Lai Omi zinātu, kura balss ir jūsu — runājiet par jebko aptuveni 5 sekundes."
+    "speechProfileEnrollmentPrompt": "Lai Omi zinātu, kura balss ir jūsu — runājiet par jebko aptuveni 5 sekundes.",
+    "secondDevice": "Otrā ierīce",
+    "pairSecondDevice": "Savienot pārī otro ierīci",
+    "pairSecondDeviceDescription": "Pievienojiet OmiGlass līdzās savam Omi, lai fotoattēli un audio nonāktu vienā sarunā.",
+    "forgetSecondDevice": "Aizmirst otro ierīci"
 }

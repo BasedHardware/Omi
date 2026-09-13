@@ -9988,4 +9988,17 @@ class AppLocalizationsEt extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Et Omi teaks, milline hääl on sinu oma — räägi ükskõik millest umbes 5 sekundit.';
+
+  @override
+  String get secondDevice => 'Teine seade';
+
+  @override
+  String get pairSecondDevice => 'Seo teine seade';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Ühenda OmiGlass oma Omi kõrvale, et fotod ja heli jõuaksid samasse vestlusse.';
+
+  @override
+  String get forgetSecondDevice => 'Unusta teine seade';
 }

@@ -3298,5 +3298,9 @@
     },
     "tapPlusToStartRecording": "Toque em + para começar a gravar",
     "processingTakingLonger": "Ainda a trabalhar — isto está a demorar mais do que o habitual.",
-    "speechProfileEnrollmentPrompt": "Para que o Omi saiba qual é a sua voz — fale sobre qualquer coisa por cerca de 5 segundos."
+    "speechProfileEnrollmentPrompt": "Para que o Omi saiba qual é a sua voz — fale sobre qualquer coisa por cerca de 5 segundos.",
+    "secondDevice": "Segundo dispositivo",
+    "pairSecondDevice": "Emparelhar um segundo dispositivo",
+    "pairSecondDeviceDescription": "Conecte o OmiGlass junto ao seu Omi para que fotos e áudio entrem na mesma conversa.",
+    "forgetSecondDevice": "Esquecer segundo dispositivo"
 }

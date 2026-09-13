@@ -9996,4 +9996,17 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Jotta Omi tietää, mikä ääni on sinun — puhu mistä tahansa noin 5 sekuntia.';
+
+  @override
+  String get secondDevice => 'Toinen laite';
+
+  @override
+  String get pairSecondDevice => 'Yhdistä toinen laite';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Yhdistä OmiGlass Omi-laitteesi rinnalle, jotta kuvat ja ääni päätyvät samaan keskusteluun.';
+
+  @override
+  String get forgetSecondDevice => 'Unohda toinen laite';
 }

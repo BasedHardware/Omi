@@ -9823,4 +9823,16 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get speechProfileEnrollmentPrompt => 'Omiがあなたの声を識別できるように、好きなことを5秒ほど話してください。';
+
+  @override
+  String get secondDevice => '2台目のデバイス';
+
+  @override
+  String get pairSecondDevice => '2台目のデバイスをペアリング';
+
+  @override
+  String get pairSecondDeviceDescription => 'Omi と一緒に OmiGlass を接続すると、写真と音声が同じ会話にまとまります。';
+
+  @override
+  String get forgetSecondDevice => '2台目のデバイスを削除';
 }

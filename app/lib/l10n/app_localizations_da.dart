@@ -9979,4 +9979,17 @@ class AppLocalizationsDa extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Så Omi ved, hvilken stemme der er din — tal om hvad som helst i cirka 5 sekunder.';
+
+  @override
+  String get secondDevice => 'Anden enhed';
+
+  @override
+  String get pairSecondDevice => 'Par en anden enhed';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Forbind OmiGlass sammen med din Omi, så billeder og lyd ender i samme samtale.';
+
+  @override
+  String get forgetSecondDevice => 'Glem anden enhed';
 }

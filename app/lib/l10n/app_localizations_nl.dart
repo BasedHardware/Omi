@@ -10022,4 +10022,17 @@ class AppLocalizationsNl extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Zodat Omi weet welke stem van jou is — praat ongeveer 5 seconden over wat je maar wilt.';
+
+  @override
+  String get secondDevice => 'Tweede apparaat';
+
+  @override
+  String get pairSecondDevice => 'Tweede apparaat koppelen';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Verbind OmiGlass naast je Omi zodat foto\'s en audio in hetzelfde gesprek terechtkomen.';
+
+  @override
+  String get forgetSecondDevice => 'Tweede apparaat vergeten';
 }

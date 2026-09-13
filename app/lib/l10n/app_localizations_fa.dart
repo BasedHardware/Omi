@@ -9995,4 +9995,17 @@ class AppLocalizationsFa extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'برای اینکه Omi بداند کدام صدا متعلق به شماست — حدود ۵ ثانیه درباره هر چیزی صحبت کنید.';
+
+  @override
+  String get secondDevice => 'دستگاه دوم';
+
+  @override
+  String get pairSecondDevice => 'جفت‌کردن دستگاه دوم';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'OmiGlass را در کنار Omi خود متصل کنید تا عکس‌ها و صدا در همان گفتگو قرار بگیرند.';
+
+  @override
+  String get forgetSecondDevice => 'فراموش‌کردن دستگاه دوم';
 }

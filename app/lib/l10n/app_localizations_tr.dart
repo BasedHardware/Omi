@@ -10007,4 +10007,17 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Omi\'nin hangi sesin size ait olduğunu bilmesi için yaklaşık 5 saniye boyunca istediğiniz bir konuda konuşun.';
+
+  @override
+  String get secondDevice => 'İkinci cihaz';
+
+  @override
+  String get pairSecondDevice => 'İkinci cihazı eşleştir';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Fotoğraflar ve ses aynı sohbete gitsin diye OmiGlass\'ı Omi\'nizin yanına bağlayın.';
+
+  @override
+  String get forgetSecondDevice => 'İkinci cihazı unut';
 }
