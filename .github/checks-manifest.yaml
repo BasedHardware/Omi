@@ -980,6 +980,12 @@ checks:
     lanes: ["local", "ci"]
     reason: "#13181 failed content HTTP reads were indistinguishable from empty successful pages; production helper and handler regression"
 
+  - id: crossref-validation-tests
+    command: ["python3", "plugins/omi-crossref-app/test_main.py"]
+    triggers: ["plugins/omi-crossref-app/**", ".github/checks-manifest.yaml"]
+    lanes: ["local", "ci"]
+    reason: "#13983: unvalidated Crossref tool inputs, non-dict payload crashes, and per-request socket churn; the suite asserts clamped/trimmed models, defensive title/year extraction, pooled-client reuse with fallback, and the HTTP 200 {result, error} validation envelope"
+
   - id: hey-omi-question-extraction-tests
     command: ["python3", "plugins/notifications/test_hey_omi_extraction.py"]
     triggers: ["plugins/notifications/**", ".github/checks-manifest.yaml"]
