@@ -1006,6 +1006,11 @@ checks:
     triggers: ["plugins/omi-clickup-app/**", ".github/checks-manifest.yaml"]
     lanes: ["local", "ci"]
     reason: "#13808: the settings picker labels folder lists as Folder / List and escapes ClickUp-supplied names at the HTML boundary"
+  - id: wikipedia-app-tests
+    command: ["python3", "plugins/omi-wikipedia-app/test_main.py"]
+    triggers: ["plugins/omi-wikipedia-app/**"]
+    lanes: ["local", "ci"]
+    reason: "#13948: a null query block, null content_urls/desktop chain, non-dict upstream JSON, or non-dict items in search/random lists crashed the Wikipedia tool handlers with AttributeError; the suite executes all three handlers, the lifespan pooled-client fallback, and request normalization through hermetic seams"
 
 exempt:
   - path: ".github/scripts/check-desktop-beta-freshness.py"
