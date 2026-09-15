@@ -185,6 +185,28 @@ def whoop_fetch_all_records(uid: str, endpoint: str, params: dict) -> Tuple[Opti
     return records, None
 
 
+def _coerce_int(value, default: int, minimum: int, maximum: int) -> int:
+    """Coerce a JSON-supplied tool parameter to an int clamped into [minimum, maximum].
+
+    The Omi backend forwards omitted optional manifest params as explicit JSON
+    nulls, so ``body.get("days", 7)`` can yield None. Map None, booleans (an int
+    subclass that would silently read as 1/0), and unparseable values to
+    ``default``; accept ints and numeric strings; clamp the result.
+    """
+    if value is None or isinstance(value, bool):
+        return default
+    if isinstance(value, int):
+        parsed = value
+    elif isinstance(value, str):
+        try:
+            parsed = int(value.strip(), 10)
+        except ValueError:
+            return default
+    else:
+        return default
+    return max(minimum, min(parsed, maximum))
+
+
 def format_recovery_score(recovery: dict) -> str:
     """Format recovery score for display."""
     score = recovery.get("score", {})
@@ -657,8 +679,8 @@ async def tool_get_workouts(request: Request):
         log(f"=== GET_WORKOUTS ===")
 
         uid = body.get("uid")
-        days = min(body.get("days", 7), 30)
-        max_results = min(body.get("max_results", 10), 50)
+        days = _coerce_int(body.get("days"), default=7, minimum=1, maximum=30)
+        max_results = _coerce_int(body.get("max_results"), default=10, minimum=1, maximum=50)
 
         if not uid:
             return ChatToolResponse(error="User ID is required")
