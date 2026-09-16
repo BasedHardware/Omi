@@ -10036,4 +10036,17 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Hogy az Omi tudja, melyik hang a tiéd — beszélj bármiről körülbelül 5 másodpercig.';
+
+  @override
+  String get secondDevice => 'Második eszköz';
+
+  @override
+  String get pairSecondDevice => 'Második eszköz párosítása';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Csatlakoztasd az OmiGlass-t az Omi mellé, hogy a fotók és a hang ugyanabba a beszélgetésbe kerüljenek.';
+
+  @override
+  String get forgetSecondDevice => 'Második eszköz elfelejtése';
 }

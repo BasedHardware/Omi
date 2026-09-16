@@ -10828,5 +10828,9 @@
     },
     "tapPlusToStartRecording": "הקישו על + כדי להתחיל להקליט",
     "processingTakingLonger": "עדיין בעבודה — זה לוקח יותר זמן מהרגיל.",
-    "speechProfileEnrollmentPrompt": "כדי ש-Omi יידע איזה קול הוא שלך — יש לדבר על כל נושא במשך כ-5 שניות."
+    "speechProfileEnrollmentPrompt": "כדי ש-Omi יידע איזה קול הוא שלך — יש לדבר על כל נושא במשך כ-5 שניות.",
+    "secondDevice": "מכשיר שני",
+    "pairSecondDevice": "צימוד מכשיר שני",
+    "pairSecondDeviceDescription": "חברו את OmiGlass לצד ה-Omi שלכם כדי שתמונות ואודיו ייכנסו לאותה שיחה.",
+    "forgetSecondDevice": "שכח את המכשיר השני"
 }

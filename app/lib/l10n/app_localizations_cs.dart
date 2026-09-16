@@ -9994,4 +9994,17 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get speechProfileEnrollmentPrompt => 'Aby Omi věděl, který hlas je váš — mluvte asi 5 sekund o čemkoli.';
+
+  @override
+  String get secondDevice => 'Druhé zařízení';
+
+  @override
+  String get pairSecondDevice => 'Spárovat druhé zařízení';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Připojte OmiGlass k vašemu Omi, aby fotky a zvuk šly do stejné konverzace.';
+
+  @override
+  String get forgetSecondDevice => 'Zapomenout druhé zařízení';
 }

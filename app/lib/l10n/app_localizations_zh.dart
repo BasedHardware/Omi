@@ -9804,4 +9804,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get speechProfileEnrollmentPrompt => '让 Omi 知道哪个声音是你的——随便聊点什么，说大约 5 秒就好。';
+
+  @override
+  String get secondDevice => '第二台设备';
+
+  @override
+  String get pairSecondDevice => '配对第二台设备';
+
+  @override
+  String get pairSecondDeviceDescription => '将 OmiGlass 与你的 Omi 一起连接，让照片和音频进入同一段对话。';
+
+  @override
+  String get forgetSecondDevice => '忘记第二台设备';
 }

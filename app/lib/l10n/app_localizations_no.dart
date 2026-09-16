@@ -9993,4 +9993,17 @@ class AppLocalizationsNo extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Så Omi vet hvilken stemme som er din — snakk om hva som helst i omtrent 5 sekunder.';
+
+  @override
+  String get secondDevice => 'Andre enhet';
+
+  @override
+  String get pairSecondDevice => 'Par en annen enhet';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Koble til OmiGlass sammen med Omi slik at bilder og lyd havner i samme samtale.';
+
+  @override
+  String get forgetSecondDevice => 'Glem andre enhet';
 }

@@ -3297,5 +3297,9 @@
     },
     "tapPlusToStartRecording": "Нажмите +, чтобы начать запись",
     "processingTakingLonger": "Ещё обрабатывается — это занимает больше обычного.",
-    "speechProfileEnrollmentPrompt": "Чтобы Omi знал, какой голос ваш, говорите о чём угодно примерно 5 секунд."
+    "speechProfileEnrollmentPrompt": "Чтобы Omi знал, какой голос ваш, говорите о чём угодно примерно 5 секунд.",
+    "secondDevice": "Второе устройство",
+    "pairSecondDevice": "Подключить второе устройство",
+    "pairSecondDeviceDescription": "Подключите OmiGlass вместе с Omi, чтобы фото и звук попадали в один разговор.",
+    "forgetSecondDevice": "Забыть второе устройство"
 }

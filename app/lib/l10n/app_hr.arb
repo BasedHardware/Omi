@@ -10828,5 +10828,9 @@
     },
     "tapPlusToStartRecording": "Dodirnite + za početak snimanja",
     "processingTakingLonger": "Još traje — ovo traje duže nego inače.",
-    "speechProfileEnrollmentPrompt": "Kako bi Omi znao koji je vaš glas — govorite oko 5 sekundi o bilo čemu."
+    "speechProfileEnrollmentPrompt": "Kako bi Omi znao koji je vaš glas — govorite oko 5 sekundi o bilo čemu.",
+    "secondDevice": "Drugi uređaj",
+    "pairSecondDevice": "Upari drugi uređaj",
+    "pairSecondDeviceDescription": "Povežite OmiGlass uz svoj Omi kako bi fotografije i zvuk išli u isti razgovor.",
+    "forgetSecondDevice": "Zaboravi drugi uređaj"
 }

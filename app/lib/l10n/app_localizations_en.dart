@@ -9985,4 +9985,17 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'So Omi knows which voice is yours — talk for about 5 seconds about anything.';
+
+  @override
+  String get secondDevice => 'Second device';
+
+  @override
+  String get pairSecondDevice => 'Pair a second device';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Connect OmiGlass next to your Omi so photos and audio go into the same conversation.';
+
+  @override
+  String get forgetSecondDevice => 'Forget second device';
 }

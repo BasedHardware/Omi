@@ -3238,5 +3238,9 @@
     },
     "tapPlusToStartRecording": "＋をタップして録音を開始",
     "processingTakingLonger": "まだ処理中です。通常より時間がかかっています。",
-    "speechProfileEnrollmentPrompt": "Omiがあなたの声を識別できるように、好きなことを5秒ほど話してください。"
+    "speechProfileEnrollmentPrompt": "Omiがあなたの声を識別できるように、好きなことを5秒ほど話してください。",
+    "secondDevice": "2台目のデバイス",
+    "pairSecondDevice": "2台目のデバイスをペアリング",
+    "pairSecondDeviceDescription": "Omi と一緒に OmiGlass を接続すると、写真と音声が同じ会話にまとまります。",
+    "forgetSecondDevice": "2台目のデバイスを忘れる"
 }

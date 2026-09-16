@@ -10029,4 +10029,17 @@ class AppLocalizationsHr extends AppLocalizations {
 
   @override
   String get speechProfileEnrollmentPrompt => 'Kako bi Omi znao koji je vaš glas — govorite oko 5 sekundi o bilo čemu.';
+
+  @override
+  String get secondDevice => 'Drugi uređaj';
+
+  @override
+  String get pairSecondDevice => 'Upari drugi uređaj';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Povežite OmiGlass uz svoj Omi kako bi fotografije i zvuk išli u isti razgovor.';
+
+  @override
+  String get forgetSecondDevice => 'Zaboravi drugi uređaj';
 }

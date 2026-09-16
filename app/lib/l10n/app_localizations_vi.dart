@@ -9990,4 +9990,17 @@ class AppLocalizationsVi extends AppLocalizations {
   @override
   String get speechProfileEnrollmentPrompt =>
       'Để Omi biết đâu là giọng của bạn — hãy nói về bất cứ điều gì trong khoảng 5 giây.';
+
+  @override
+  String get secondDevice => 'Thiết bị thứ hai';
+
+  @override
+  String get pairSecondDevice => 'Ghép nối thiết bị thứ hai';
+
+  @override
+  String get pairSecondDeviceDescription =>
+      'Kết nối OmiGlass cùng với Omi để ảnh và âm thanh đi vào cùng một cuộc trò chuyện.';
+
+  @override
+  String get forgetSecondDevice => 'Quên thiết bị thứ hai';
 }

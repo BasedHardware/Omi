@@ -3267,5 +3267,9 @@
     },
     "tapPlusToStartRecording": "Nhấn + để bắt đầu ghi âm",
     "processingTakingLonger": "Vẫn đang xử lý — mất nhiều thời gian hơn bình thường.",
-    "speechProfileEnrollmentPrompt": "Để Omi biết đâu là giọng của bạn — hãy nói về bất cứ điều gì trong khoảng 5 giây."
+    "speechProfileEnrollmentPrompt": "Để Omi biết đâu là giọng của bạn — hãy nói về bất cứ điều gì trong khoảng 5 giây.",
+    "secondDevice": "Thiết bị thứ hai",
+    "pairSecondDevice": "Ghép nối thiết bị thứ hai",
+    "pairSecondDeviceDescription": "Kết nối OmiGlass cùng với Omi để ảnh và âm thanh đi vào cùng một cuộc trò chuyện.",
+    "forgetSecondDevice": "Quên thiết bị thứ hai"
 }

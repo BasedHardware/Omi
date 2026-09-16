@@ -3297,5 +3297,9 @@
     },
     "tapPlusToStartRecording": "Kaydı başlatmak için + simgesine dokunun",
     "processingTakingLonger": "Hâlâ devam ediyor — bu her zamankinden daha uzun sürüyor.",
-    "speechProfileEnrollmentPrompt": "Omi'nin hangi sesin size ait olduğunu bilmesi için yaklaşık 5 saniye boyunca istediğiniz bir konuda konuşun."
+    "speechProfileEnrollmentPrompt": "Omi'nin hangi sesin size ait olduğunu bilmesi için yaklaşık 5 saniye boyunca istediğiniz bir konuda konuşun.",
+    "secondDevice": "İkinci cihaz",
+    "pairSecondDevice": "İkinci cihazı eşleştir",
+    "pairSecondDeviceDescription": "Fotoğraflar ve ses aynı sohbete gitsin diye OmiGlass'ı Omi'nizin yanına bağlayın.",
+    "forgetSecondDevice": "İkinci cihazı unut"
 }
