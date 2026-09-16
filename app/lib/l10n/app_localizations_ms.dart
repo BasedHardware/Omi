@@ -10034,7 +10034,4 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Lupakan peranti kedua';
-
-  @override
-  String get processingTakingLonger => 'Masih diproses — ini mengambil masa lebih lama daripada biasa.';
 }

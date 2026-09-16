@@ -9816,7 +9816,4 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => '忘记第二台设备';
-
-  @override
-  String get processingTakingLonger => '仍在处理中——比平时耗时更长。';
 }

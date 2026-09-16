@@ -10078,7 +10078,4 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'இரண்டாவது சாதனத்தை மறக்கவும்';
-
-  @override
-  String get processingTakingLonger => 'இன்னும் செயல்படுகிறது — இது வழக்கத்தை விட அதிக நேரம் எடுக்கிறது.';
 }

@@ -10032,7 +10032,4 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Olvidar segundo dispositivo';
-
-  @override
-  String get processingTakingLonger => 'Sigue trabajando: esto está tardando más de lo habitual.';
 }

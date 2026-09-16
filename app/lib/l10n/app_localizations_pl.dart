@@ -10038,7 +10038,4 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Zapomnij drugie urządzenie';
-
-  @override
-  String get processingTakingLonger => 'Nadal działa — trwa to dłużej niż zwykle.';
 }

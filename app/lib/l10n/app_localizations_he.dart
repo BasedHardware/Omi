@@ -9926,7 +9926,4 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'שכח את המכשיר השני';
-
-  @override
-  String get processingTakingLonger => 'עדיין בעבודה — זה לוקח יותר זמן מהרגיל.';
 }

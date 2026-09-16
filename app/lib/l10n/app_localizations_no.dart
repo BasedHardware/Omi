@@ -10006,7 +10006,4 @@ class AppLocalizationsNo extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Glem andre enhet';
-
-  @override
-  String get processingTakingLonger => 'Jobber fortsatt — dette tar lengre tid enn vanlig.';
 }

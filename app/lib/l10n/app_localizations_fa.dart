@@ -10008,7 +10008,4 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'فراموش‌کردن دستگاه دوم';
-
-  @override
-  String get processingTakingLonger => 'هنوز در حال انجام است — بیشتر از حد معمول طول می‌کشد.';
 }

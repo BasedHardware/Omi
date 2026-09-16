@@ -10099,7 +10099,4 @@ class AppLocalizationsTl extends AppLocalizations {
 
   @override
   String get forgetSecondDevice => 'Kalimutan ang ikalawang device';
-
-  @override
-  String get processingTakingLonger => 'Ginagawa pa — mas matagal ito kaysa karaniwan.';
 }
